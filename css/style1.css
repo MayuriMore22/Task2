@@ -7,7 +7,7 @@ body{
       
     justify-content: center;
         align-items: center;
-        padding: 70px 40px 60px 40px;
+        padding: 70px 40px 70px 40px;
          display: flex;
          height: 100%;
          background-color: cadetblue;
@@ -48,7 +48,7 @@ body{
 
 .heading{
     text-align: center;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Bree Serif', sans-serif;
     font-weight: 400;
     color: teal;
 }
@@ -56,16 +56,15 @@ body{
 h3{
     margin-top: 2px;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bree Serif', sans-serif;
     font-size: 15px;
     font-weight: 500;
-    color: rgb(130, 133, 134);
-;
+     color: rgb(130, 133, 134);
 }
 .para{
     text-align: center;
     font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bree Serif', sans-serif;
     color:bisque;
     font-weight: 500;
 }
@@ -74,9 +73,9 @@ h3{
     margin-top: 5px;
     display: flex;
   justify-content: center;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-color:white;
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 20px;
+ color:white;
 }
 
 .label{
@@ -104,7 +103,7 @@ h2{
 p{
     margin-top: 10px;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Bree Serif', sans-serif;
     font-weight: 500;
     color:teal;
 }
@@ -120,7 +119,7 @@ p{
     margin-top: 22px;
     height:40px;
     width: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Bree Serif', sans-serif;
     font-size: 21px; 
     padding: 0 10px; 
     cursor: pointer;
@@ -181,7 +180,7 @@ p{
     border:1px solid rgba(52, 52, 247, 0.952);
      background-color:rgba(52, 52, 247, 0.952);
     margin: 1px;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Bree Serif', sans-serif;
     font-size: 16px;
     font-weight: 100;
     text-align: center;
@@ -204,7 +203,7 @@ p{
     margin: 1px;
     text-align: center;
     font-size: 16px;
-    font-family: 'Bree Serif', serif;
+    font-family: 'Bree Serif', sans-serif;
     font-weight: 100;
     cursor: pointer;
     color: white;
@@ -216,4 +215,19 @@ p{
     border:1px solid crimson;
      background-color:crimson;
 }
+
+
+
+@media all and (max-width:900px) {
+    .msgbtn{
+        width: 140px;
+    }    
+     .followbtn{
+        width: 140px;
+  }    
+}
+
+
+
+
 
