@@ -133,7 +133,8 @@ p{
   color: whitesmoke;
   background-color:rgba(0, 0, 255, 0.897);
   border-radius: 50%;
-  padding-top: 10px; 
+  padding-top: 5px; 
+  padding-bottom:5px ;
 }
 
 #logo2{
@@ -141,7 +142,9 @@ p{
     background-color:rgb(44, 214, 214);
     color: white;
     border-radius: 50%;
-    padding-top: 10px; 
+    padding-top: 5px; 
+    padding-bottom:5px ;
+   
 }
   #logo3{
       font-size: 30px;
@@ -149,7 +152,8 @@ p{
      color: white;
      border-radius: 50%;
      padding-top: 10px; 
-     padding-bottom: 1px;
+     padding-top: 5px; 
+     padding-bottom:5px ;   
      padding-left: 12px;
     }
   #logo4{
@@ -157,7 +161,9 @@ p{
   background-color: black;
   color: white;  
   border-radius: 50%;
-  padding-top: 10px; 
+   padding-top: 5px; 
+  padding-bottom:5px ;
+
 }
 
   #logo5{
@@ -165,8 +171,9 @@ p{
     border-radius: 50%;  
     background-color:red;
     color: white;
-    padding-top: 10px;  
-}
+    padding-top: 5px; 
+    padding-bottom:5px ;
+  }
 
   .btnbox{
     margin-top: 30px;
