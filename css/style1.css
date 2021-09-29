@@ -22,8 +22,17 @@ body{
     background-color: rgb(184, 177, 113);
     padding: 25px 30px 40px 20px;
     border-radius: 10px;
-    box-shadow: 5px 8px 53px rosybrown;    
+    box-shadow: 5px 8px 53px rosybrown;  
+    cursor: pointer;  
  }
+
+ body:hover{
+     background-color:darkseagreen;
+ }
+
+.card-container:hover{
+    background-color: black;
+}
 
  .profileimg{
      z-index: 1;
@@ -56,7 +65,7 @@ h3{
     text-align: center;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(7, 10, 14);
+    color:bisque;
     font-weight: 500;
 }
 
@@ -76,15 +85,15 @@ color:white;
     margin-top: 22px;
     display: flex;
     justify-content: center;  
-    justify-content: space-between; 
-
+    justify-content: space-evenly; 
+ 
 }
 
 .item{
-    box-shadow: 5px 8px 63px sienna;
-    width: 100px;
-    height: 100px;
    color: white;
+   box-shadow: 5px 8px 63px sienna;
+   width: 100px;
+   height: 100px;
  }
    
 h2{
@@ -114,6 +123,8 @@ p{
     font-size: 21px; 
     padding: 0 10px; 
     cursor: pointer;
+
+
 }
 
 
@@ -160,6 +171,8 @@ p{
   .btnbox{
     margin-top: 30px;
     display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .msgbtn{
@@ -173,7 +186,7 @@ p{
     text-align: center;
     color: white;
     cursor: pointer;
-    width: 300px;
+    width: 250px;
     border-radius: 35px;
  }
 
@@ -194,7 +207,7 @@ p{
     font-weight: 100;
     cursor: pointer;
     color: white;
-    width: 300px;
+    width: 250px;
     border-radius: 35px;
  }
 
